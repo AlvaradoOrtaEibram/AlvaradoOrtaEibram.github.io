@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles-fp.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <title>Verbal</title>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="logo">
+            <a href="../index.html"><img src="../img/logo.png" alt="Logo de la marca"></a>
+        </div>
+        <div class="cont-men-desp-bottom">
+            <ul class="links">
+                <li class="links-est"><a href="../index.html">Inicio</a></li>
+                <li class="links-est"><a href="../nosotros.html">Nosotros</a></li>
+                <li class="links-est"><a href="../contacto.html">Contacto</a></li>
+                <li class="links-est">
+                    <a href="#">Formas de aprendizaje</a>
+                    <ul class="men-ver">
+                        <li><a href="../aprendizajes/visual.html">Visual</a></li>                 
+                        <li><a href="../aprendizajes/auditivo.html">Auditivo</a></li>
+                        <li><a href="../aprendizajes/kinestesico.html">Kinestesio</a></li>
+                        <!-- <li><a href="../aprendizajes/verbal.htmls">Verbal</a></li> -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <button class="switch" id="switch" onclick="cambiodeimagen()">
+            <span><i class='bx bx-brightness-half'></i></span>
+            <span><i class='bx bxs-brightness-half'></i></span>
+        </button>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+    </nav>
+    <header>
+        <div class="cont-tit">
+            <img src="../img/aprendizaje verbal2.jpg" alt="Aprendizaje verbal">
+            <h1>Verbal</h1>
+        </div>
+    </header>
+    <article class="cont-article-body">
+        <section class="cont-texto-k">
+            <div class="texto-k">
+                <h1>Verbal.</h1>
+                <p>El estilo de aprendizaje verbal implica leer, escribir y hablar. Son personas que prefieren utilizar las palabras, se expresan con facilidad, poseen un vocabulario amplio y disfrutan con la lectura. Aprenden mejor si leen la información y ponen sus ideas por escrito o las exponen en un debate.</p>
+                <div class="img-k">
+                    <img src="../img/aprendizaje-verbal3.png" alt="Aprendizaje verbal">
+                </div>
+                <br><p>¿Como detectar si mi aprendizaje es verbal?<br><br></p>
+                <p>Aprendes fácilmente al prestar atención a lo que dice o narra el profesor. Eres capaz de recordar signos audibles con cambios de tono de voz, entonaciones y acentos. Puedes repetir con habilidad y recordar lo que dice alguien más en una conferencia o en una clase. Se te da bien los exámenes orales y las presentaciones.</p>
+                </ul>
+            </div>
+        </section>
+    </article>
+    <section class="cont-footer">
+        <div class="cont-cards-footer">
+            <a href="../aprendizajes/kinestesico.html">
+                <figure class="figure-cards">
+                    <img src="../img/aprendizaje kinestesico 2.jpg" alt="">
+                    <div class="capa-k">
+                        <h3>Aprendizaje Kinestesico</h3>
+                        <p>Este estilo se relaciona con las sensaciones y movimientos que puede tener el cuerpo humano, se aprende...</p>
+                    </div>
+                </figure>
+            </a>
+        </div>
+        <div class="cont-cards-footer">
+            <a href="../aprendizajes/visual.html">
+                <figure class="figure-cards">
+                    <img src="../img/aprendizaje-visual2.png" alt="">
+                    <div class="capa-k">
+                        <h3>Aprendizaje Visual</h3>
+                        <p>Este es el estilo más común entre los estudiantes, en este estilo el estudiante puede relacionar...</p>
+                    </div>
+                </figure>
+            </a>
+        </div>
+        <div class="cont-cards-footer">
+            <a href="../aprendizajes/auditivo.html">
+                <figure class="figure-cards">
+                    <img src="../img/aprendizaje auditivo 1.jpg" alt="">
+                    <div class="capa-k">
+                        <h3>Aprendizaje Auditivo</h3>
+                        <p>En este estilo, la persona tiende a relacionar y recordar de mejor manera la información mediante una explicación oral...</p>
+                    </div>
+                </figure>
+            </a>
+        </div>
+    </section>
+    <footer class="pie-pagina">
+        <div class="wave">
+            <img src="../img/img1.svg" alt="">
+        </div>
+        <div class="group-1">
+            <div class="box">
+                <figure>
+                    <a href="../index.html">
+                        <img src="../img/logo.png" alt="Logo de la empresa">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre Nosotros</h2>
+                <p>Dos estudiantes de Ingeniería en Software en la UACJ, apasionados por la accesibilidad y la diversidad en el aprendizaje. Enfocamos nuestra página en los 4 estilos de aprendizaje, con especial atención a la daltonismo tritanopia.</p>
+                <p>Únete a nuestra misión de hacer la educación más inclusiva y descubre cómo adaptar tu aprendizaje a tu estilo único.</p>
+            </div>
+            <div class="box-red">
+                <h2>Siguenos</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="group-2">
+            <small>&copy; 2021 <b>SLee DW</b> - Todos los derechos reservados. </small>
+        </div>
+    </footer>
+    <script src="../script.js"></script>
+    <script src="../script-btn-dalt.js"></script>
+</body>
+</html>
